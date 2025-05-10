@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family:robotica;
+    src: url(fontes/idroid.otf);
+
+
+
+* {
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}    
+
+}
+
+.lrobo {
+    background-image: linear-gradient(to right, #bbf9d7b4, #d8ffea9d, #d1ffe545);
+    font-family: robotica;
+    color: #268551;
+    padding-left: 15px;
+    width: 600px;
+    
+}
+
+.sozinho {
+  font-family: robotica;
+  color: #268551;
+  padding-left: 5px;
+  font-size: 30px;
+  
+}
+
+body {
+    margin: 0px;
+    background-color: #84E1AD;
+}
+
+
+header > p {
+    text-align: center;
+    font-weight: bold;
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(to top , #1A5C38, #1E6B40, #268551, #2A9558, #2FA765, #37C576, #3AD07D);
+    padding: 2px 30px 30px 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+nav > a {
+    padding: 0px 10px 0px 0px;    
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+footer {
+    background-color: #1A5C38;
+    color: white;
+    margin: 15px 0px 0px 0px;
+    text-align: center;
+}
+
+img {
+    width: 950px;
+    height: 300px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bug {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.video {
+    background-color: #1A5C38;
+    height: 500px;
+    width: 1000px;
+    border-width: 1px;
+    border-color: rgba(63, 63, 63, 0.196);
+    border-style: solid;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 1px 0px 15px #268551b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.objetivo {
+    background-color: white;
+    height: 500;
+    width: 1000px;
+    border-width: 1px;
+    border-color: rgba(63, 63, 63, 0.196);
+    border-style: solid;
+    margin: auto;
+    box-shadow: 1px 1px 15px #268551b4;
+}
+
+.ultimo {
+    background-color: white;
+    height: 900;
+    width: 1000px;
+    border-width: 1px;
+    border-color: rgba(63, 63, 63, 0.196);
+    border-style: solid;
+    margin: auto;
+    box-shadow: 1px 1px 15px #268551b4;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.aprendamais {
+    background-color: #2FA866;
+    color: white;
+    height: 40px;
+    width: 960px;
+    margin-right: auto;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.ultimacaixa {
+    background-color: #C5EBD6;;
+    height: 400px;
+    width: 960px;
+    border-width: 1px;
+    border-color: rgba(63, 63, 63, 0.196);
+    border-style: solid;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: 15px;
+    box-shadow: 1px 0px 15px #268551b4;
+    padding-left: 3px;
+   border-radius: 0px 0px 10px 10px;
+    
+}
+
+p {
+    text-indent: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    columns: 2;
+}
+
+ul li::before {
+    content: "✓";
+    color: black;
+} 
+
+ 
+
+.objetivo  a {
+    text-decoration: underline;
+    color: black;
+}
+
+.objetivo  a:hover {
+    color: #1A5C38;
+}
