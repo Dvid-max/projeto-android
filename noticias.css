@@ -1,8 +1,24 @@
 @charset "UTF-8";
 
-h1 {
+
+div {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: auto;
     background-color: red;
-    columns: white ;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+}
+
+div h1 {
     text-align: center;
-    height: 4em;
+    padding-top: 30%;
+}
+
+div:hover {
+    background-color: black;
+    color: white;
+    
 }
